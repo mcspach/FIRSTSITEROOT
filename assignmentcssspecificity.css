@@ -1,0 +1,60 @@
+/* specificity 11 */
+li:nth-child(even) {
+  color: orange;
+}
+/* specificity 11 */
+li:nth-child(odd) {
+  color: black;
+}
+/* specificity 100 */
+#once {
+  background-color: yellow;
+}
+/* specificity 10 */
+.stupid {
+  color: yellow;
+}
+/* specificity 10 */
+.sexy {
+  color: blue;
+}
+/* specificity 1 */
+p {
+  color: red;
+  border-style: solid;
+  border-color: black;
+  width: 75%;
+  height: auto;
+}
+/* specificity 11 */
+p:visited {
+  background-color: pink;
+}
+/* specificity 2 */
+div + p {
+  color: gray;
+}
+/* specificity 1 */
+div {
+  color: green;
+  border-style: solid;
+  border-color: black;
+  width: 75%;
+  height: auto;
+}
+/* specificity 11 */
+p:nth-child(2) {
+  color: black;
+}
+/* specificity 1 */
+h1 {
+  color: brown;
+  border-style: double;
+  border-color: black;
+  width: 75%;
+  height: auto;
+}
+/* specificity 2 */
+p::first-letter {
+  color: purple;
+}
