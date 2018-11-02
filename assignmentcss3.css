@@ -1,0 +1,17 @@
+
+li:nth-child(even) {
+  background-color: orange;
+}
+
+li:nth-child(odd) {
+  background-color: yellow;
+}
+
+p::first-letter {
+  font-family: sans-serif;
+  font-size: 100px;
+}
+
+p::first-line {
+  color: lightblue;
+}
