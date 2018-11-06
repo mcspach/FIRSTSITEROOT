@@ -1,0 +1,42 @@
+h1 {
+  text-shadow: 2px,2px,1px,yellow;
+}
+
+p {
+  font: serif;
+}
+
+#secondp {
+  font-family:: sans-serif;
+  font-variant: small-caps;
+  font-style: italic;
+
+}
+
+#thirdp {
+  font-family: 'Pattaya', sans-serif;
+}
+
+#fourthp {
+  font-family: 'Pattaya', sans-serif;
+  font-weight: 600;
+}
+
+#fifthp {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 100;
+}
+
+#sixthp {
+  font-family: sans-serif;
+  text-decoration: line-through;
+  text-indent: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
