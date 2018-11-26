@@ -1,0 +1,16 @@
+li {
+  display: inline;
+  margin: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+h1, h2 {
+  text-align: center;
+}
