@@ -1,0 +1,27 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: groove yellow 5px;
+  border-radius: 100%;
+}
+
+section {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 5px;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  padding-bottom: 20px;
+}
