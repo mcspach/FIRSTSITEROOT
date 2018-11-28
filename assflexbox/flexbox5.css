@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+
+section {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+article {
+  width: 30%;
+  height: 70%;
+  border: 1px solid blue;
+  background-color: orange;
+
+}
+
+div {
+  flex-grow: 2;
+
+}
+
+.same {
+  background-color: lightblue;
+  border: solid blue 1px;
+}
