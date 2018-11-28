@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+div {
+  text-align: center;
+  height: 20px;
+  width: 100%;
+  border: 1px solid blue;
+  background-color: orange;
+  flex-direction: row;
+}
+
+.flex1 {
+  width: 400px;
+  flex-grow: 4;
+}
+
+.flex2 {
+  width: 400px;
+}
+
+.same {
+  width: 400px;
+  flex-grow: 2;
+}
