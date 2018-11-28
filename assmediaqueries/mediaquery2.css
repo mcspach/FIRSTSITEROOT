@@ -11,15 +11,18 @@ div {
   margin; 1px;
 }
 
+
 .long {
   width: 400px;
   flex-grow: 3;
 }
 
+
 .short {
   width: 400px;
   flex-grow: 1;
 }
+
 
 .normal {
   width: 400px;
