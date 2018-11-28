@@ -1,0 +1,15 @@
+section {
+  display: flex;
+}
+
+.flexdif {
+  flex-grow: 2;
+}
+
+div {
+  text-align: center;
+  height: 20px;
+  width: 400px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
