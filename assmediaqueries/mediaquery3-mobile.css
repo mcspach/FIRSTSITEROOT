@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+nav {
+  border: solid red 2px;
+  margin: 2px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section {
+  border: solid red 2px;
+  margin: 2px;
+}
+
+p {
+  padding: 2%;
+}
