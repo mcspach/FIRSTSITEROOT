@@ -1,0 +1,31 @@
+body {
+  border: solid orange 2px;
+  margin: 0;
+}
+
+.lastdiv {
+  flex-grow: 2;
+}
+
+p {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border: solid red 1px;
+  flex-grow: 1;
+  margin: 3px;
+}
+
+section {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
