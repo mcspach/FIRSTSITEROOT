@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width 70%;
+  height: 110px;
+}
+
+
+section {
+  width: 70%;
+  height: 40px;
+  border: solid red 1px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  border: 1px solid blue;
+  background-color: orange;
+  flex-grow: 2;
+}
+
+
+
+.same {
+  flex-grow: 1;
+}
