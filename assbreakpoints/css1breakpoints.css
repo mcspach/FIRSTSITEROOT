@@ -1,0 +1,46 @@
+html {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: lightblue;
+  height: 100%;
+}
+
+header {
+
+  border: 2px solid purple;
+  width: 100%;
+}
+
+aside {
+  border: 2px solid purple;
+  flex-grow: 1;
+  flex-shrink: 5;
+
+}
+
+p {
+  flex-grow: 2
+  flex-shrink: 4;
+  text-align: left;
+  margin: 0;
+
+}
+
+footer {
+  border: 2px solid purple;
+  width: 100%;
+}
