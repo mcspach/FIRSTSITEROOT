@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  border: 2px solid blue;
+  border-radius: 100%;
+  background-color: lightblue;
+  height: 100px;
+  width: 100px;
+}
+
+div:hover {
+  background-color: gray;
+  border: 3px dotted lightblue;
+  height: 110px;
+  width: 110px;
+}
