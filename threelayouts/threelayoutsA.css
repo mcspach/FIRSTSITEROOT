@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div {
+  height: 30%;
+  width: 98.5%;
+  margin: 0;
+  border: darkgreen solid 4px;
+  background-color: lightblue;
+
+}
+
+.long {
+  border: solid red 4px;
+}
+
+section {
+  border: 2px solid black;
+  display: inline-block;
+  background-color: lightgreen;
+  width: 39%;
+  margin: 0;
+  padding: 0;
+  height: 99%;
+}
+
+aside {
+  border: 2px solid black;
+  display: inline-block;
+  background-color: yellow;
+  width: 59%;
+  margin: 0;
+  padding: 0;
+  height: 99%;
+}
